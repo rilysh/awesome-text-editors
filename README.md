@@ -75,6 +75,10 @@ Atom is a hackable text editor for the 21st century. It was created by GitHub to
 Brackets is a text editor, focused on HTML, CSS, and JavaScript developers. It's mainly developed for web developers.\
 (Source: [here](https://github.com/adobe/brackets/blob/master/README.md))
 
+- [Lapce](https://lapce.dev/)\
+Lapce is a lightning-fast code editor written in Rust that comes set up out of the box with a nice UI, along with features like remote development, a Vim-like modal editing setting, and a built-in terminal.\
+(Source: jtbx)
+
 - [Notepad++](https://notepad-plus-plus.org/)\
 Notepad++ is a free, lightweight, customizable text editor for Windows. The editor component is based on [Scintilla](https://www.scintilla.org/).\
 (Source: [here](https://notepad-plus-plus.org/))
