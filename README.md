@@ -2,6 +2,10 @@
 A curated list of awesome text editors, including code editors and IDEs.
 
 ## Terminal-based editors
+- [Ed](https://en.wikipedia.org/wiki/Ed_(text_editor))\
+ed is also knwon as the "Standard Text Editor" is traces it roots back to the creation on Unix in 1969.  It is portable to all Unix type systems, as well as Plan9.  There are even ports to Windows.  Many of the features of the sed and grep standard Unix utilities borrow heavily from ed.\
+(Source: [here](https://en.wikipedia.org/wiki/Ed_(text_editor)))
+
 - [Vi](http://ex-vi.cvs.sourceforge.net/ex-vi/ex-vi/)\
 Vi is a screen-oriented text editor originally created for the Unix operating system. The portable subset of the behavior of vi and programs based on it, and the ex-editor language supported within these programs.\
 (Source: [here](https://en.wikipedia.org/wiki/Vi))
