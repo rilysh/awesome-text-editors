@@ -62,6 +62,10 @@ Mle is a small, flexible, terminal-based text editor, which runs on GNU/Linux, F
 Neoeedit is a smart, lightweight, and powerful text editor. It supports Unicode and CJK fonts out of the box.\
 (Source: [here](https://github.com/neoedmund/neoeedit/blob/master/README.md))
 
+- [PSEdit](https://www.powershellgallery.com/packages/psedit)\
+PSEdit is a PowerShell module that provides a lightweight and convenient text editor for editing PowerShell scripts and other text files within the PowerShell console or Integrated Scripting Environment (ISE). It offers features such as syntax highlighting and tab completion to enhance the productivity of PowerShell users.\
+(Source: [here](https://github.com/ironmansoftware/psedit#readme))
+
 ## Graphical-based editors
 - [VSCode](https://code.visualstudio.com/)\
 A text editor with pretty UI, focusing on simplicity, usability, and most other features out of the box.\
