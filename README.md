@@ -119,6 +119,10 @@ A lightweight and customizable text editor. Focused on Lua programmers.\
 A lightweight text editor, written in Pascal Programming Language. Uses, Lazarus and FPC.\
 (Source: me)
 
+- [qnote](https://github.com/Omibranch/qnote)\
+A minimal frameless notepad for Linux built with Tauri 2 (Rust + TypeScript). Features Markdown editing with live preview, PDF export via Typst, OCR via Tesseract, automatic version history, and dark/light themes. Available on AUR.\
+(Source: [here](https://github.com/Omibranch/qnote))
+
 ### Info
 If you got a new text editor or any existing text editor or want to modify some "context", please feel free to create a pull request.
 
