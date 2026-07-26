@@ -1,124 +1,132 @@
-## Awesome-Text-Editors
-A curated list of awesome text editors, including code editors and IDEs.
+<div align="center">
 
-## Terminal-based editors
-- [Ed](https://en.wikipedia.org/wiki/Ed_(text_editor))\
-ed is also knwon as the "Standard Text Editor" is traces it roots back to the creation on Unix in 1969.  It is portable to all Unix type systems, as well as Plan9.  There are even ports to Windows.  Many of the features of the sed and grep standard Unix utilities borrow heavily from ed.\
-(Source: [here](https://en.wikipedia.org/wiki/Ed_(text_editor)))
+# Awesome Text Editors
 
-- [Vi](http://ex-vi.cvs.sourceforge.net/ex-vi/ex-vi/)\
-Vi is a screen-oriented text editor originally created for the Unix operating system. The portable subset of the behavior of vi and programs based on it, and the ex-editor language supported within these programs.\
-(Source: [here](https://en.wikipedia.org/wiki/Vi))
+### A showcase of remarkable text editors, code editors, and IDEs
 
-- [Vim](https://www.vim.org/)\
-Vim (Vi IMproved) is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.\
-(Source: [here](https://www.vim.org/))
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Editors](https://img.shields.io/badge/editors-42-7c3aed)
+![Open Source Friendly](https://img.shields.io/badge/open--source-friendly-22c55e)
+![Pull Requests Welcome](https://img.shields.io/badge/pull%20requests-welcome-2563eb)
 
-- [Neovim](https://neovim.io/)\
-Neovim is a fork of Vim aiming to improve the codebase, allowing for easier implementation of APIs, improved user experience, and plugin implementation.\
-(Source: [here](https://wiki.archlinux.org/title/Neovim))
+From enduring Unix classics to fast and modern graphical tools; find an editor
+that fits the way you write code.
 
-- [Emacs](https://www.gnu.org/software/emacs/)\
-Emacs is the extensible, customizable, self-documenting, free/libre real-time text editor. In specific, it's an interpreter for Emacs Lisp.\
-(Source: [here](https://www.gnu.org/software/emacs/))
+[Terminal editors](#terminal-editors) ·
+[Graphical editors](#graphical-editors) ·
+[Licence guide](#licence-guide) ·
+[Contributing](#contributing)
 
-- [Nano](https://www.nano-editor.org/)\
-GNU nano is a text editor for Unix-like computing systems or operating environments using a command line interface. By far, it's a default terminal-based text editor for most GNU/Linux distributions.\
-(Source: [here](https://en.wikipedia.org/wiki/GNU_nano))
+</div>
 
-- [Micro](https://micro-editor.github.io/)\
-Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals.\
-(Source: [here](https://github.com/zyedidia/micro/blob/master/README.md))
+---
 
-- [JOE](https://joe-editor.sourceforge.io/)\
-JOE is a full-featured terminal-based screen editor. JOE has been around since 1988 and comes standard with many GNU/Linux distributions.\
-(Source: [here](https://joe-editor.sourceforge.io/))
+## Legend
 
-- [that_editor](https://github.com/bisqwit/that_editor)\
-A minimal terminal-based text editor mainly focused to get the feel as the old MS-DOS text editors.\
-(Source: me)
+| Symbol | Meaning |
+| :---: | --- |
+| 🌱 | Open source |
+| 🔒 | Proprietary distribution |
+| 🕰️ | Deprecated or archived |
 
-- [Ne](https://ne.di.unimi.it/)\
-Ne is a free text editor based on the POSIX standard that runs on almost every *NIX or *NIX-based machine.\
-(Source: [here](https://ne.di.unimi.it/))
+## Licence guide
 
-- [Tlide](https://os.ghalkes.nl/tilde/)\
-Tilde is a text editor for the console/terminal, which provides an intuitive interface for people accustomed to GUI environments such as Gnome, KDE and Windows.\
-(Source: [here](https://github.com/gphalkes/tilde/blob/master/README.md))
+Most editors in this list are open source. Two entries need some clarification:
 
-- [Helix](https://helix-editor.com/)\
-A Neovim-inspired text editor based on Kakoune editor supports Vim-like modal editing and most Neovim features out of the box.\
-(Source: me)
+- **Sublime Text** is proprietary software
+- **Visual Studio Code** is Microsoft's proprietary distribution of the
+  MIT-licensed **Code - OSS** project. **VSCodium** provides community-built,
+  open-source binaries without Microsoft's branding and telemetry additions
 
-- [Kakoune](https://kakoune.org/)\
-Kakoune is a text editor that implements Vi’s "keystrokes as a text editing language" model. It's nearly similar to the Vim editor.\
-(Source: me)
+Licences can change. Check the linked project before redistributing or embedding
+an editor in another product.
 
-- [Mle](https://github.com/adsr/mle)\
-Mle is a small, flexible, terminal-based text editor, which runs on GNU/Linux, FreeBSD, macOS, and Windows. and more.\
-(Source: [here](https://github.com/adsr/mle/blob/master/README.md))
+---
 
-- [Neoedit](https://github.com/neoedmund/neoeedit)\
-Neoeedit is a smart, lightweight, and powerful text editor. It supports Unicode and CJK fonts out of the box.\
-(Source: [here](https://github.com/neoedmund/neoeedit/blob/master/README.md))
+## Terminal editors
 
-- [PSEdit](https://www.powershellgallery.com/packages/psedit)\
-PSEdit is a PowerShell module that provides a lightweight and convenient text editor for editing PowerShell scripts and other text files within the PowerShell console or Integrated Scripting Environment (ISE). It offers features such as syntax highlighting and tab completion to enhance the productivity of PowerShell users.\
-(Source: [here](https://github.com/ironmansoftware/psedit#readme))
+Powerful editing without leaving the command line.
 
-## Graphical-based editors
-- [VSCode](https://code.visualstudio.com/)\
-A text editor with pretty UI, focusing on simplicity, usability, and most other features out of the box.\
-(Source: me)
+| Editor | Why it stands out | Status |
+| --- | --- | :---: |
+| [Ed](https://en.wikipedia.org/wiki/Ed_(text_editor)) | The standard Unix line editor, with roots stretching back to 1969 | 🌱 |
+| [Emacs](https://www.gnu.org/software/emacs/) | An extensible, customizable editor built around Emacs Lisp | 🌱 |
+| [Helix](https://helix-editor.com/) | A modern modal editor with multiple selections, Tree-sitter, and built-in language-server support | 🌱 |
+| [JOE](https://joe-editor.sourceforge.io/) | A full-featured terminal editor available on many Unix-like systems | 🌱 |
+| [Kakoune](https://kakoune.org/) | A modal editor built around selections and composable commands | 🌱 |
+| [Micro](https://micro-editor.github.io/) | An intuitive terminal editor designed around familiar shortcuts and modern terminal features | 🌱 |
+| [Mle](https://github.com/adsr/mle) | A small, flexible, cross-platform terminal editor | 🌱 |
+| [Nano](https://www.nano-editor.org/) | An approachable command-line editor included with many GNU/Linux distributions | 🌱 |
+| [Ne](https://ne.di.unimi.it/) | A portable, POSIX-based editor for Unix-like systems | 🌱 |
+| [Neoedit](https://github.com/neoedmund/neoeedit) | A lightweight editor with built-in Unicode and CJK support | 🌱 |
+| [Neovim](https://neovim.io/) | A Vim-derived editor with a modern API and extensive plugin ecosystem | 🌱 |
+| [PSEdit](https://www.powershellgallery.com/packages/psedit) | A terminal editor for PowerShell with IntelliSense, syntax highlighting, and script execution | 🌱 |
+| [that_editor](https://github.com/bisqwit/that_editor) | A minimal editor inspired by classic MS-DOS text editors | 🌱 |
+| [Tilde](https://os.ghalkes.nl/tilde/) | A console editor with an interface familiar to users of graphical applications | 🌱 |
+| [Vi](http://ex-vi.cvs.sourceforge.net/ex-vi/ex-vi/) | The foundational screen-oriented Unix editor and ancestor of many modal editors | 🌱 |
+| [Vim](https://www.vim.org/) | A highly configurable and efficient modal editor available on nearly every platform | 🌱 |
 
-- [VSCodium](https://vscodium.com/)\
-A text editor same to VSCode mainly focused on removing all telemetry, staying on FLOSS, and being completely community driven.\
-(Source: me)
+<p align="right"><a href="#-awesome-text-editors">Back to top ↑</a></p>
 
-- [Atom](https://github.com/atom/atom) ([Deprecated](https://github.blog/2022-06-08-sunsetting-atom/))\
-Atom is a hackable text editor for the 21st century. It was created by GitHub to serve as the basis for the Electron Framework.\
-(Source: [here](https://github.com/atom/atom/blob/master/README.md))
+---
 
-- [Brackets](https://github.com/adobe/brackets) ([Deprecated](https://github.com/adobe/brackets/wiki/Troubleshooting))\
-Brackets is a text editor, focused on HTML, CSS, and JavaScript developers. It's mainly developed for web developers.\
-(Source: [here](https://github.com/adobe/brackets/blob/master/README.md))
+## Graphical editors
 
-- [Lapce](https://lapce.dev/)\
-Lapce is a lightning-fast code editor written in Rust that comes set up out of the box with a nice UI, along with features like remote development, a Vim-like modal editing setting, and a built-in terminal.\
-(Source: jtbx)
+Desktop editors ranging from focused writing tools to IDE-like development
+environments.
 
-- [Notepad++](https://notepad-plus-plus.org/)\
-Notepad++ is a free, lightweight, customizable text editor for Windows. The editor component is based on [Scintilla](https://www.scintilla.org/).\
-(Source: [here](https://notepad-plus-plus.org/))
+| Editor | Why it stands out | Status |
+| --- | --- | :---: |
+| [Atom](https://github.com/atom/atom) | GitHub's hackable editor and one of the projects that helped popularize Electron | 🌱 🕰️ |
+| [Brackets](https://github.com/adobe/brackets) | An editor created for web development with a focus on HTML, CSS, and JavaScript | 🌱 🕰️ |
+| [CotEditor](https://coteditor.com/) | A lightweight native text editor designed specifically for macOS | 🌱 |
+| [CudaText](https://github.com/Alexey-T/CudaText) | A cross-platform editor written in Object Pascal with an extensive plugin system | 🌱 |
+| [Geany](https://www.geany.org/) | A fast, lightweight editor with IDE-like features and plugin support | 🌱 |
+| [gedit](https://gedit-text-editor.org/) | An approachable general-purpose editor with strong GNOME integration | 🌱 |
+| [GNOME Text Editor](https://apps.gnome.org/TextEditor/) | A focused GTK4 and Libadwaita editor built for the modern GNOME desktop | 🌱 |
+| [Graptos](https://github.com/Logic-gate/Graptos) | A lightweight GTK4 editor for Linux that sits between a text editor and an IDE | 🌱 |
+| [IntelliJ IDEA](https://www.jetbrains.com/idea/) | A feature-rich development environment focused on Java and Kotlin; Community Edition listed here | 🌱 |
+| [Kate](https://kate-editor.org/) | KDE's powerful editor with split views, sessions, plugins, and an integrated terminal | 🌱 |
+| [Lapce](https://lapce.dev/) | A fast Rust-based editor with remote development, modal editing, and a built-in terminal | 🌱 |
+| [Lite XL](https://github.com/lite-xl/lite-xl) | A lightweight, Lua-extensible editor with a small and responsive core | 🌱 |
+| [Mousepad](https://docs.xfce.org/apps/mousepad/start) | A simple and fast editor developed for the Xfce desktop | 🌱 |
+| [Notepad++](https://notepad-plus-plus.org/) | A popular, lightweight Scintilla-based editor for Windows | 🌱 |
+| [Notepad2-zufuliu](https://github.com/zufuliu/notepad2) | A compact Windows editor with syntax highlighting and code folding | 🌱 |
+| [Notepadqq](https://notepadqq.com/) | A Notepad++-inspired editor designed for GNU/Linux | 🌱 |
+| [Notepads](https://www.notepadsapp.com/) | A modern minimalist text editor for Windows | 🌱 |
+| [Pluma](https://github.com/mate-desktop/pluma) | MATE's lightweight general-purpose editor, derived from gedit | 🌱 |
+| [Pulsar](https://pulsar-edit.dev/) | A community-led continuation of Atom with packages, themes, and deep customization | 🌱 |
+| [SciTE](https://www.scintilla.org/SciTE.html) | A compact, cross-platform editor built on the Scintilla editing component | 🌱 |
+| [Sublime Text](https://www.sublimetext.com/) | A polished cross-platform editor known for speed, extensibility, and efficient navigation | 🔒 |
+| [TextMate](https://macromates.com/) | A customizable macOS editor built around bundles, macros, and language workflows | 🌱 |
+| [Visual Studio Code](https://code.visualstudio.com/) | Microsoft's feature-rich distribution of Code - OSS with an enormous extension ecosystem | 🔒 |
+| [VSCodium](https://vscodium.com/) | Community-built open-source binaries of Code - OSS without Microsoft branding and telemetry additions | 🌱 |
+| [Xed](https://github.com/linuxmint/xed) | Linux Mint's lightweight editor, derived from Pluma | 🌱 |
+| [Zed](https://zed.dev/) | A fast Rust-based editor designed for collaboration with people and AI | 🌱 |
 
-- [Notepadqq](https://notepadqq.com/)\
-Notepadqq is a lightweight, customizable text editor for GNU/Linux, mainly focused to create an alternative to Notepad++.\
-(Source: me)
+<p align="right"><a href="#-awesome-text-editors">Back to top ↑</a></p>
 
-- [Notepad2-zufuliu](https://github.com/zufuliu/notepad2)\
-Notepad2-zufuliu is a lightweight Scintilla-based text editor for Windows. It supports syntax highlighting, code-folding, and much more.\
-(Source: [here](https://github.com/zufuliu/notepad2))
+---
 
-- [Notepads](https://www.notepadsapp.com/)\
-A modern, lightweight text editor with a minimalist design for Windows.\
-(Source: [here](https://github.com/0x7c13/Notepads/blob/master/README.md))
+## Contributing
 
-- [Geany](https://www.geany.org/)\
-Geany is a lightweight, customizable, and featureful text editor. It supports various features through plugins.\
-(Source: me)
+Know an editor that belongs here, or found something that needs updating?
+Contributions are welcome:
 
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/) (Community Edition)\
-A feature-rich text editor focused on Java and Kotlin programmers.\
-(Source: me)
+1. Keep editors alphabetically ordered within their section
+2. Link to the official project or repository
+3. Write one concise sentence explaining what makes the editor distinctive
+4. Identify proprietary or deprecated software clearly
+5. Open a pull request with your change
 
-- [Lite-XL](https://github.com/lite-xl/lite-xl)\
-A lightweight and customizable text editor. Focused on Lua programmers.\
-(Source: me)
+Please keep descriptions factual, neutral, and free of marketing language.
 
-- [CudaText](https://github.com/Alexey-T/CudaText)\
-A lightweight text editor, written in Pascal Programming Language. Uses, Lazarus and FPC.\
-(Source: me)
+---
 
-### Info
-If you got a new text editor or any existing text editor or want to modify some "context", please feel free to create a pull request.
+<div align="center">
 
+Made for people who care about the tools they write with.
+
+⭐ If this list helped you discover a new editor, consider starring the project.
+
+</div>
