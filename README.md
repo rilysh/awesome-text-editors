@@ -119,6 +119,10 @@ A lightweight and customizable text editor. Focused on Lua programmers.\
 A lightweight text editor, written in Pascal Programming Language. Uses, Lazarus and FPC.\
 (Source: me)
 
+- [scriptura](https://github.com/jason1015-coder/scriptura)\
+A simple-to-use code editor, written in Qt/C++ and Rust, without big companies involvement and random trackers, 100%pure and organic editor\
+(Source: [here](https://github.com/jason1015-coder/scriptura/blob/main/README.md))
+
 ### Info
 If you got a new text editor or any existing text editor or want to modify some "context", please feel free to create a pull request.
 
