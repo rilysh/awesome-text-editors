@@ -119,6 +119,10 @@ A lightweight and customizable text editor. Focused on Lua programmers.\
 A lightweight text editor, written in Pascal Programming Language. Uses, Lazarus and FPC.\
 (Source: me)
 
+- [Glim](https://github.com/NeoPanic/Glim)\
+A free, open-source macOS file viewer and basic UTF-8 text editor with Markdown, diagram and Git diff previews.\
+(Source: [project documentation](https://github.com/NeoPanic/Glim))
+
 ### Info
 If you got a new text editor or any existing text editor or want to modify some "context", please feel free to create a pull request.
 
